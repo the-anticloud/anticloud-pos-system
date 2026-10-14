@@ -1,0 +1,25 @@
+ Related Scientific Research — POS_SYSTEM
+
+Company: Anticloud FZ LLE
+Model: PAX L5 Narrow L2 General 27B
+Project: POS_SYSTEM | Category: SUPERMARKETS
+Upstream: https://github.com/AhmadEleiwa/POS-System (MIT)
+
+ Overview
+
+This document covers related scientific research for the Anticloud integration of POS_SYSTEM.
+
+Web POS for supermarkets: product and cart management
+
+ Anticloud Integration
+
+PAX L5 Narrow L2 General 27B is integrated into POS_SYSTEM to provide:
+- Local AI inference with zero cloud dependency
+- AIOSS tamper-evident audit chain
+- AES-256 encryption at rest
+- Single-binary deployment
+
+ Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
