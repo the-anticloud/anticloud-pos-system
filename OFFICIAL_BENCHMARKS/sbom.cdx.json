@@ -1,0 +1,270 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:e95ba427-5085-5c51-b9c2-54c5885f27a0",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T07:18:27Z",
+    "component": {
+      "type": "application",
+      "name": "POS_SYSTEM",
+      "version": "b5dbf21a6d95",
+      "bom-ref": "pkg:generic/anticloud/POS_SYSTEM@b5dbf21a6d95",
+      "purl": "pkg:generic/anticloud/POS_SYSTEM@b5dbf21a6d95",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "b5dbf21a6d95823be2bffc7daf3880cfb6cef2ec"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/AhmadEleiwa/POS-System"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@fortawesome/fontawesome-svg-core",
+      "version": "^6.4.0",
+      "purl": "pkg:npm/@fortawesome/fontawesome-svg-core@^6.4.0",
+      "bom-ref": "npm/@fortawesome/fontawesome-svg-core@^6.4.0"
+    },
+    {
+      "type": "library",
+      "name": "@fortawesome/free-solid-svg-icons",
+      "version": "^6.4.0",
+      "purl": "pkg:npm/@fortawesome/free-solid-svg-icons@^6.4.0",
+      "bom-ref": "npm/@fortawesome/free-solid-svg-icons@^6.4.0"
+    },
+    {
+      "type": "library",
+      "name": "@fortawesome/react-fontawesome",
+      "version": "^0.2.0",
+      "purl": "pkg:npm/@fortawesome/react-fontawesome@^0.2.0",
+      "bom-ref": "npm/@fortawesome/react-fontawesome@^0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@reduxjs/toolkit",
+      "version": "^1.9.5",
+      "purl": "pkg:npm/@reduxjs/toolkit@^1.9.5",
+      "bom-ref": "npm/@reduxjs/toolkit@^1.9.5"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/jest-dom",
+      "version": "^5.16.5",
+      "purl": "pkg:npm/@testing-library/jest-dom@^5.16.5",
+      "bom-ref": "npm/@testing-library/jest-dom@^5.16.5"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/react",
+      "version": "^13.4.0",
+      "purl": "pkg:npm/@testing-library/react@^13.4.0",
+      "bom-ref": "npm/@testing-library/react@^13.4.0"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/user-event",
+      "version": "^13.5.0",
+      "purl": "pkg:npm/@testing-library/user-event@^13.5.0",
+      "bom-ref": "npm/@testing-library/user-event@^13.5.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^27.5.2",
+      "purl": "pkg:npm/@types/jest@^27.5.2",
+      "bom-ref": "npm/@types/jest@^27.5.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^16.18.36",
+      "purl": "pkg:npm/@types/node@^16.18.36",
+      "bom-ref": "npm/@types/node@^16.18.36"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^18.2.12",
+      "purl": "pkg:npm/@types/react@^18.2.12",
+      "bom-ref": "npm/@types/react@^18.2.12"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^18.2.5",
+      "purl": "pkg:npm/@types/react-dom@^18.2.5",
+      "bom-ref": "npm/@types/react-dom@^18.2.5"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "^1.4.0",
+      "purl": "pkg:npm/axios@^1.4.0",
+      "bom-ref": "npm/axios@^1.4.0"
+    },
+    {
+      "type": "library",
+      "name": "formik",
+      "version": "^2.4.2",
+      "purl": "pkg:npm/formik@^2.4.2",
+      "bom-ref": "npm/formik@^2.4.2"
+    },
+    {
+      "type": "library",
+      "name": "or",
+      "version": "^0.2.0",
+      "purl": "pkg:npm/or@^0.2.0",
+      "bom-ref": "npm/or@^0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^18.2.0",
+      "purl": "pkg:npm/react@^18.2.0",
+      "bom-ref": "npm/react@^18.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react-cookie",
+      "version": "^8.0.1",
+      "purl": "pkg:npm/react-cookie@^8.0.1",
+      "bom-ref": "npm/react-cookie@^8.0.1"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^18.2.0",
+      "purl": "pkg:npm/react-dom@^18.2.0",
+      "bom-ref": "npm/react-dom@^18.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react-redux",
+      "version": "^8.1.1",
+      "purl": "pkg:npm/react-redux@^8.1.1",
+      "bom-ref": "npm/react-redux@^8.1.1"
+    },
+    {
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "^6.13.0",
+      "purl": "pkg:npm/react-router-dom@^6.13.0",
+      "bom-ref": "npm/react-router-dom@^6.13.0"
+    },
+    {
+      "type": "library",
+      "name": "react-scripts",
+      "version": "^5.0.1",
+      "purl": "pkg:npm/react-scripts@^5.0.1",
+      "bom-ref": "npm/react-scripts@^5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "redux",
+      "version": "^4.2.1",
+      "purl": "pkg:npm/redux@^4.2.1",
+      "bom-ref": "npm/redux@^4.2.1"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^4.9.5",
+      "purl": "pkg:npm/typescript@^4.9.5",
+      "bom-ref": "npm/typescript@^4.9.5"
+    },
+    {
+      "type": "library",
+      "name": "web-vitals",
+      "version": "^2.1.4",
+      "purl": "pkg:npm/web-vitals@^2.1.4",
+      "bom-ref": "npm/web-vitals@^2.1.4"
+    },
+    {
+      "type": "library",
+      "name": "yup",
+      "version": "^1.2.0",
+      "purl": "pkg:npm/yup@^1.2.0",
+      "bom-ref": "npm/yup@^1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/addon-interactions",
+      "version": "^8.6.14",
+      "purl": "pkg:npm/@storybook/addon-interactions@^8.6.14",
+      "bom-ref": "npm/@storybook/addon-interactions@^8.6.14"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/addon-onboarding",
+      "version": "^8.6.14",
+      "purl": "pkg:npm/@storybook/addon-onboarding@^8.6.14",
+      "bom-ref": "npm/@storybook/addon-onboarding@^8.6.14"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/blocks",
+      "version": "^8.6.14",
+      "purl": "pkg:npm/@storybook/blocks@^8.6.14",
+      "bom-ref": "npm/@storybook/blocks@^8.6.14"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/preset-create-react-app",
+      "version": "^1.2.0",
+      "purl": "pkg:npm/@storybook/preset-create-react-app@^1.2.0",
+      "bom-ref": "npm/@storybook/preset-create-react-app@^1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@storybook/test",
+      "version": "^8.6.14",
+      "purl": "pkg:npm/@storybook/test@^8.6.14",
+      "bom-ref": "npm/@storybook/test@^8.6.14"
+    },
+    {
+      "type": "library",
+      "name": "babel-plugin-named-exports-order",
+      "version": "^0.0.2",
+      "purl": "pkg:npm/babel-plugin-named-exports-order@^0.0.2",
+      "bom-ref": "npm/babel-plugin-named-exports-order@^0.0.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-storybook",
+      "version": "^0.6.12",
+      "purl": "pkg:npm/eslint-plugin-storybook@^0.6.12",
+      "bom-ref": "npm/eslint-plugin-storybook@^0.6.12"
+    },
+    {
+      "type": "library",
+      "name": "prop-types",
+      "version": "^15.8.1",
+      "purl": "pkg:npm/prop-types@^15.8.1",
+      "bom-ref": "npm/prop-types@^15.8.1"
+    },
+    {
+      "type": "library",
+      "name": "webpack",
+      "version": "^5.87.0",
+      "purl": "pkg:npm/webpack@^5.87.0",
+      "bom-ref": "npm/webpack@^5.87.0"
+    }
+  ]
+}

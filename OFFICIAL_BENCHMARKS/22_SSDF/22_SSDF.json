@@ -1,0 +1,21 @@
+{
+ "framework": "22_SSDF",
+ "title": "NIST SP 800-218 SSDF v1.1",
+ "project": "POS_SYSTEM",
+ "basis": [
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "head=193fb82d93e440345a3779a61a926db9e331df1a commits=1 clea"
+  },
+  {
+   "check": "07_owasp_top10",
+   "status": "PASS",
+   "observed": "9/9 controls evidenced (100.0%)"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "104ed390979bc9d7b8cd678e7851d4f4fabce92bcbd2f5b16e0902fe1d866882",
+ "register_sha3": "1279fbfe2f16d8c6267823b0e01173f525cd3f4518f60629eeaf32e4fdf3434e"
+}
